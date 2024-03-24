@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+    font-family:"Inconsolata",monospace;
+    
+}
+body {
+    background-image: linear-gradient(to right, mediumpurple, palevioletred);
+}
+.kontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.calculate{
+    position: absolute;
+    width: 300px;
+    display: inline-block;
+    
+    
+}
+.calculate input{
+        width: 102.2%;
+        height: 100px;
+        font-size: 34px;
+        border: none;
+        background-color: #212121;
+        color: #fff;
+        text-align: end;
+        margin-left:-4px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+}
+.ungu{
+    background-color: blueviolet;
+    color: white;
+}
+.magenta{
+    background-color: magenta;
+    color: white;
+    width: 154.2px;
+    border-bottom-right-radius: 10px;
+}
+.bbn{
+border-bottom-left-radius: 10px;
+}
+button {
+    font-size: 28px;
+    font-weight: 400;
+    background-color: #fff;
+    width: 76.8px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    margin: -4px
+    
+}
